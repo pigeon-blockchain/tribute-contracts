@@ -8,11 +8,11 @@
     # ====================================== DaoFactory ====================================
     - kind: ethereum/contract
       name: DaoFactory
-      network: rinkeby
+      network: polygontest
       source:
-        address: "0x08e3e2a8b82352d2eE3906Ff57A0B6fCB2eF72c5"
+        address: "0x0cb74C33cEd702A67a8274C43995fc8c67CAB646"
         abi: DaoFactory
-        startBlock: 9414112
+        startBlock: 22602027
       mapping:
         kind: ethereum/events
         apiVersion: 0.0.4
@@ -33,7 +33,7 @@
     # ====================================== DaoRegistry ====================================
     - kind: ethereum/contract
       name: DaoRegistry
-      network: rinkeby
+      network: polygontest
       source:
         abi: DaoRegistry
       mapping:
@@ -96,7 +96,7 @@
     # ====================================== BankExtension ====================================
     - kind: ethereum/contract
       name: BankExtension
-      network: rinkeby
+      network: polygontest
       source:
         abi: BankExtension
       mapping:
@@ -123,7 +123,7 @@
     # ====================================== NFTExtension ====================================
     - kind: ethereum/contract
       name: NFTExtension
-      network: rinkeby
+      network: polygontest
       source:
         abi: NFTExtension
       mapping:
